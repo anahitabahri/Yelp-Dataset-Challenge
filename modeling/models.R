@@ -94,21 +94,30 @@ model5 <- lmer(ReviewStars ~ PriceRange + experience + price +
                  + (1 | state)+(1|business_id), data = data)
 
 AIC(model5) # slightly higher, would be better since we have fewer parameters (removing pricerange)
+
+plotFEsim(FEsim(model5))
+
 plotREsim(REsim(model5)) # removed pricerange so only biz id and state
 # state level difference for large effect -- .1 get that much boost being in that state...
 # biz effect is taking that away
 
 
-model5 <- lmer(ReviewStars ~ PriceRange + experience + price + wine + cheese + sauce
+model6 <- lmer(ReviewStars ~ PriceRange + experience + price + wine + cheese + sauce
                  + (1 | state)+(1|business_id), data = data)
 
-plotFEsim(FEsim(model5)) # sauce wasn't good, sauce was delish
+plotFEsim(FEsim(model6)) # sauce wasn't good, sauce was delish
 # if you wanna dig into it -- simulation
-plotREsim(REsim(model5)) # doesn't change much
+plotREsim(REsim(model6)) # doesn't change much
+AIC(model5,model6)
+
+model1 <- lmer(ReviewStars ~ PriceRange + experience + price +
+                 + (1 | state) + (1 | business_id), data = data)
+
+model2<- lmer(ReviewStars ~ PriceRange + experience + price + wine + cheese + sauce
+               + (1 | state) + (1 | business_id), data = data)
 
 
-
-AIC(model3,model4,model5) 
+# AIC(model3,model4,model5) 
 #        df      AIC
 # model3 50 517283.1
 # model4 34 517241.2
