@@ -3,10 +3,7 @@
 
 Check out my slides [here](https://docs.google.com/presentation/d/1G1glRAvwvXX3SFOspf1T5TaJ4ez2-DPkQTaAMwwiqtw/edit?usp=sharing)!
 
-<center>
-![lentrecote](https://raw.githubusercontent.com/anahitabahri/Yelp-Dataset-Challenge/master/lentrecote.png)
-</center>
-
+![lentrecote](https://s23.postimg.org/v03h8tsnv/lentrecote.png)
 
 I have many obsessions, but there’s this one thing that people associate me with, whether the person is a close friend or an acquaintance who happens to be an Instagram follower: l’entrecote, or <b>steak frites</b>!
 
