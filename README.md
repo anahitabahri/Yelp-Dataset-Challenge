@@ -4,7 +4,7 @@
 Check out my slides [here](https://docs.google.com/presentation/d/1G1glRAvwvXX3SFOspf1T5TaJ4ez2-DPkQTaAMwwiqtw/edit?usp=sharing)!
 
 <center>
-![lentrecote](https://s23.postimg.org/v03h8tsnv/lentrecote.png)
+![lentrecote](lentrecote.png)
 </center>
 
 
