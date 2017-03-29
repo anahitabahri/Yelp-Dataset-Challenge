@@ -4,7 +4,7 @@
 Check out my slides [here](https://docs.google.com/presentation/d/1G1glRAvwvXX3SFOspf1T5TaJ4ez2-DPkQTaAMwwiqtw/edit?usp=sharing)!
 
 <center>
-![lentrecote](lentrecote.png)
+![lentrecote](https://raw.githubusercontent.com/anahitabahri/Yelp-Dataset-Challenge/master/lentrecote.png)
 </center>
 
 
